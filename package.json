@@ -18,6 +18,7 @@
     "react",
     "medium.com"
   ],
+  "type": "module",
   "author": "Mohammad Reza Khosravian",
   "license": "ISC",
   "bugs": {
