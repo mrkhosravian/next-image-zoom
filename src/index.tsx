@@ -1,7 +1,7 @@
 import * as React from "react";
 
-export default function SomeComponent() {
+export default function Zoom() {
     return (
-        <div>hey there changed</div>
+        <div>Zoomable Image Component</div>
     )
 }
