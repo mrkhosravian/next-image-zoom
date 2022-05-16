@@ -1,0 +1,27 @@
+{
+  "name": "next-image-zoom",
+  "version": "1.0.0",
+  "description": "Medium.com style image zoom for nextjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkhosravian/next-image-zoom.git"
+  },
+  "keywords": [
+    "nextjs",
+    "image",
+    "zoom",
+    "image-zoom",
+    "react",
+    "medium.com"
+  ],
+  "author": "Mohammad Reza Khosravian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkhosravian/next-image-zoom/issues"
+  },
+  "homepage": "https://github.com/mrkhosravian/next-image-zoom#readme"
+}
