@@ -2,8 +2,12 @@
   "name": "next-image-zoom",
   "version": "1.0.0",
   "description": "Medium.com style image zoom for nextjs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/mrkhosravian/next-image-zoom/issues"
   },
-  "homepage": "https://github.com/mrkhosravian/next-image-zoom#readme"
+  "homepage": "https://github.com/mrkhosravian/next-image-zoom#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9"
+  }
 }
