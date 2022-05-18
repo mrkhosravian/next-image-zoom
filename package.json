@@ -1,12 +1,12 @@
 {
   "name": "next-image-zoom",
-  "version": "1.1.0",
+  "version": "0.1.1",
   "description": "Medium.com style image zoom for nextjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,12 @@
     "react",
     "medium.com"
   ],
+  "files": [
+    "AUTHORS",
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
   "type": "module",
   "author": "Mohammad Reza Khosravian",
   "license": "ISC",
@@ -29,11 +35,21 @@
     "url": "https://github.com/mrkhosravian/next-image-zoom/issues"
   },
   "homepage": "https://github.com/mrkhosravian/next-image-zoom#readme",
-  "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  },
   "devDependencies": {
-    "@types/react": "^18.0.9"
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-sass": "^1.2.12",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   }
 }
