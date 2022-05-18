@@ -1,6 +1,6 @@
 {
   "name": "next-image-zoom",
-  "version": "0.1.1",
+  "version": "1.1.2",
   "description": "Medium.com style image zoom for nextjs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

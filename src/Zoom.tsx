@@ -57,6 +57,7 @@ export const Zoom = (props: ImageProps) => {
         height: props.layout === "fixed" ? "max-content" : "100%",
         zIndex: clicked ? 50 : 0,
         overflow: "hidden",
+        backgroundColor: clicked ? "rgba(0,0,0,.3)" : "transparent"
     }
 
     return (
