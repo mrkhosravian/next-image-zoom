@@ -6,7 +6,7 @@ Medium.com image zoom style for [Next.js](https://nextjs.org) optimized image co
 
 ## Demo
 
-You can check [demo from here](github)
+Please check [Demo](https://next-image-zoom.vercel.app/) here.
 
 
 ## Installation
@@ -76,4 +76,12 @@ import Zoom from "next-image-zoom";
 ## Support
 
 For support, email mrkhdev@gmail.com.
+
+## 🚀 About Me
+I'm a full stack web developer that has hunger for learning new things 😋
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mrkhosravian.ir/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrkhosravian/)
 
