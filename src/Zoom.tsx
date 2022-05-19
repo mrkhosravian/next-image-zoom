@@ -1,14 +1,6 @@
 import React, {CSSProperties, useRef, useState} from "react";
 import {default as Image, ImageProps} from "next/image";
 
-declare type Layout = "responsive" | "fixed" | "fill"
-
-// interface Props {
-//     src: StaticImageData;
-//     layout: Layout;
-//     objectFit: JSX.IntrinsicElements['img']['style'];
-// }
-
 export const Zoom = (props: ImageProps) => {
 
     const containerRef = useRef<HTMLDivElement>(null);
