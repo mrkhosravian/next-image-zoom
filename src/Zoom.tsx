@@ -34,7 +34,7 @@ export const Zoom = (props: ImageProps & ZoomProps) => {
         throw "Zoom percentage must be between 1 and 100";
     }
 
-    if (props.backgroundOpacity < 0 || props.backgroundOpacity > 1) {
+    if (props.backgroundOpacity! < 0 || props.backgroundOpacity! > 1) {
         throw "Background opacity must be between 0 and 1";
     }
 
