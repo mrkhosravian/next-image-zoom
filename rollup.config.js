@@ -11,7 +11,7 @@ export default {
             format: 'es',
             exports: 'named',
             sourcemap: true,
-            strict: false
+            strict: true,
         }
     ],
     plugins: [
