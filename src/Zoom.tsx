@@ -1,5 +1,5 @@
 import React, {CSSProperties, useRef, useState} from "react";
-import {default as Image, ImageProps} from "next/image.js";
+import {default as Image, ImageProps} from "next/legacy/image.js";
 
 interface ZoomProps {
     zoomPercentage?: number;
